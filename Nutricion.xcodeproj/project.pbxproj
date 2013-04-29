@@ -18,6 +18,19 @@
 		E19022181717CCAB0035F01E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E19022171717CCAB0035F01E /* Default-568h@2x.png */; };
 		E190221B1717CCAB0035F01E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19022191717CCAB0035F01E /* MainStoryboard.storyboard */; };
 		E190221E1717CCAB0035F01E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E190221D1717CCAB0035F01E /* ViewController.m */; };
+		E19022261717CD580035F01E /* newViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E19022251717CD580035F01E /* newViewController.m */; };
+		E1963651172A0F6500A27F35 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E1963650172A0F6500A27F35 /* FacebookSDKResources.bundle */; };
+		E1CEFD0F171E371B004F9B98 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD0E171E371B004F9B98 /* MessageUI.framework */; };
+		E1CEFD11171E5736004F9B98 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD10171E5736004F9B98 /* FacebookSDK.framework */; };
+		E1CEFD13171E5780004F9B98 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD12171E577F004F9B98 /* Accounts.framework */; };
+		E1CEFD15171E5792004F9B98 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD14171E5792004F9B98 /* Social.framework */; };
+		E1CEFD17171E579C004F9B98 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD16171E579C004F9B98 /* Security.framework */; };
+		E1CEFD19171E57AC004F9B98 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1CEFD18171E57AC004F9B98 /* AdSupport.framework */; };
+		E1CEFD1F171E5FB1004F9B98 /* action-eating.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CEFD1B171E5FB1004F9B98 /* action-eating.png */; };
+		E1CEFD20171E5FB1004F9B98 /* action-location.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CEFD1C171E5FB1004F9B98 /* action-location.png */; };
+		E1CEFD21171E5FB1004F9B98 /* action-people.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CEFD1D171E5FB1004F9B98 /* action-people.png */; };
+		E1CEFD22171E5FB1004F9B98 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CEFD1E171E5FB1004F9B98 /* facebook.png */; };
+		E1CEFD24171E6631004F9B98 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = E1CEFD23171E6631004F9B98 /* Icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,20 @@
 		E190221A1717CCAB0035F01E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		E190221C1717CCAB0035F01E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E190221D1717CCAB0035F01E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E19022241717CD580035F01E /* newViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newViewController.h; sourceTree = "<group>"; };
+		E19022251717CD580035F01E /* newViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newViewController.m; sourceTree = "<group>"; };
+		E1963650172A0F6500A27F35 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		E1CEFD0E171E371B004F9B98 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E1CEFD10171E5736004F9B98 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		E1CEFD12171E577F004F9B98 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		E1CEFD14171E5792004F9B98 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		E1CEFD16171E579C004F9B98 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E1CEFD18171E57AC004F9B98 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		E1CEFD1B171E5FB1004F9B98 /* action-eating.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-eating.png"; sourceTree = "<group>"; };
+		E1CEFD1C171E5FB1004F9B98 /* action-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-location.png"; sourceTree = "<group>"; };
+		E1CEFD1D171E5FB1004F9B98 /* action-people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-people.png"; sourceTree = "<group>"; };
+		E1CEFD1E171E5FB1004F9B98 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		E1CEFD23171E6631004F9B98 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +71,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CEFD19171E57AC004F9B98 /* AdSupport.framework in Frameworks */,
+				E1CEFD17171E579C004F9B98 /* Security.framework in Frameworks */,
+				E1CEFD15171E5792004F9B98 /* Social.framework in Frameworks */,
+				E1CEFD13171E5780004F9B98 /* Accounts.framework in Frameworks */,
+				E1CEFD11171E5736004F9B98 /* FacebookSDK.framework in Frameworks */,
+				E1CEFD0F171E371B004F9B98 /* MessageUI.framework in Frameworks */,
 				E19022021717CCAB0035F01E /* UIKit.framework in Frameworks */,
 				E19022041717CCAB0035F01E /* Foundation.framework in Frameworks */,
 				E19022061717CCAB0035F01E /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +106,13 @@
 		E19022001717CCAB0035F01E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E1963650172A0F6500A27F35 /* FacebookSDKResources.bundle */,
+				E1CEFD12171E577F004F9B98 /* Accounts.framework */,
+				E1CEFD14171E5792004F9B98 /* Social.framework */,
+				E1CEFD18171E57AC004F9B98 /* AdSupport.framework */,
+				E1CEFD16171E579C004F9B98 /* Security.framework */,
+				E1CEFD10171E5736004F9B98 /* FacebookSDK.framework */,
+				E1CEFD0E171E371B004F9B98 /* MessageUI.framework */,
 				E19022011717CCAB0035F01E /* UIKit.framework */,
 				E19022031717CCAB0035F01E /* Foundation.framework */,
 				E19022051717CCAB0035F01E /* CoreGraphics.framework */,
@@ -83,12 +123,15 @@
 		E19022071717CCAB0035F01E /* Nutricion */ = {
 			isa = PBXGroup;
 			children = (
+				E1CEFD1A171E5FB1004F9B98 /* images */,
 				E19022101717CCAB0035F01E /* AppDelegate.h */,
 				E19022111717CCAB0035F01E /* AppDelegate.m */,
 				E19022191717CCAB0035F01E /* MainStoryboard.storyboard */,
 				E190221C1717CCAB0035F01E /* ViewController.h */,
 				E190221D1717CCAB0035F01E /* ViewController.m */,
 				E19022081717CCAB0035F01E /* Supporting Files */,
+				E19022241717CD580035F01E /* newViewController.h */,
+				E19022251717CD580035F01E /* newViewController.m */,
 			);
 			path = Nutricion;
 			sourceTree = "<group>";
@@ -105,6 +148,18 @@
 				E19022171717CCAB0035F01E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1CEFD1A171E5FB1004F9B98 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E1CEFD23171E6631004F9B98 /* Icon-72.png */,
+				E1CEFD1B171E5FB1004F9B98 /* action-eating.png */,
+				E1CEFD1C171E5FB1004F9B98 /* action-location.png */,
+				E1CEFD1D171E5FB1004F9B98 /* action-people.png */,
+				E1CEFD1E171E5FB1004F9B98 /* facebook.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +218,12 @@
 				E19022161717CCAB0035F01E /* Default@2x.png in Resources */,
 				E19022181717CCAB0035F01E /* Default-568h@2x.png in Resources */,
 				E190221B1717CCAB0035F01E /* MainStoryboard.storyboard in Resources */,
+				E1CEFD1F171E5FB1004F9B98 /* action-eating.png in Resources */,
+				E1CEFD20171E5FB1004F9B98 /* action-location.png in Resources */,
+				E1CEFD21171E5FB1004F9B98 /* action-people.png in Resources */,
+				E1CEFD22171E5FB1004F9B98 /* facebook.png in Resources */,
+				E1CEFD24171E6631004F9B98 /* Icon-72.png in Resources */,
+				E1963651172A0F6500A27F35 /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +237,7 @@
 				E190220E1717CCAB0035F01E /* main.m in Sources */,
 				E19022121717CCAB0035F01E /* AppDelegate.m in Sources */,
 				E190221E1717CCAB0035F01E /* ViewController.m in Sources */,
+				E19022261717CD580035F01E /* newViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +322,17 @@
 		E19022221717CCAB0035F01E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nutricion/Nutricion-Prefix.pch";
 				INFOPLIST_FILE = "Nutricion/Nutricion-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -271,9 +341,17 @@
 		E19022231717CCAB0035F01E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../FacebookSDK\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Nutricion/Nutricion-Prefix.pch";
 				INFOPLIST_FILE = "Nutricion/Nutricion-Info.plist";
+				OTHER_LDFLAGS = (
+					"-lsqlite3.0",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,6 +376,7 @@
 				E19022231717CCAB0035F01E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
